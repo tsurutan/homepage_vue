@@ -1,18 +1,18 @@
 <template>
   <ul class="naviation">
     <li>
-      <a
-        href="/"
+      <router-link
+        to="/"
         class="navigation__item">
         Profile
-      </a>
+      </router-link>
     </li>
     <li>
-      <a
-        href="/portfolio"
+      <router-link
+        to="/portfolio"
         class="navigation__item">
         Portfolio
-      </a>
+      </router-link>
     </li>
     <li>
       <a
