@@ -17,7 +17,8 @@
     <li>
       <a
         href="https://www.tsurutan.com/"
-        class="navigation__item">
+        class="navigation__item"
+        target="_blank">
         Blog
       </a>
     </li>
@@ -26,8 +27,10 @@
 
 <style lang="sass">
 .naviation
+  position: fixed
   height: 100vh
-  border-right: 1px solid #000
+  border-right: 1px solid #757575
+  width: 10rem
   list-style: none
   padding: 0
 
