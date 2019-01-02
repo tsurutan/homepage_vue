@@ -1,19 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <div class="profile__main-container">
-        <img
-          class="profile__image"
-          src="~/assets/image/designer-pic.png" >
-        <div>
-          <h1 class="profile__title">
-            Atsuhiro Tsuruta
-          </h1>
-          <h2 class="profile__subtitle">
-            Engineer / UI UX Designer / Data Scientist
-          </h2>
-        </div>
-      </div>
       <div class="profile__description-container">
         <div class="profile__description-inner">
           <p class="profile__description-title">
@@ -44,6 +31,14 @@
           <p class="profile__description-content">Major in computer science, natural languate processing.</p>
         </div>
       </div>
+      <div class="profile__main-container">
+        <h2 class="profile__subtitle">
+          Engineer
+        </h2>
+        <h1 class="profile__title">
+          Atsuhiro Tsuruta
+        </h1>
+      </div>
     </div>
   </div>
 </template>
@@ -66,8 +61,7 @@ export default {
   display: flex
   justify-content: center
   text-align: center
-  margin-left: 15rem
-  padding: 4rem 0
+  padding: 1rem 0
   width: 100%
 
 .profile__main-container
@@ -91,9 +85,13 @@ export default {
   color: #221D6D
 
 .profile__subtitle
-  font-size: .85rem
   font-weight: normal
   color: #221D6D
+  border: 3px solid #221D6D
+  padding: .2rem
+  font-size: .9rem
+  border-radius: 12px
+  margin-right: 1rem
 
 .profile__description-container
   background: #6D6D6D
@@ -101,7 +99,7 @@ export default {
   padding: 2rem 4rem
   border-radius: 8px 8px 50px 8px
   width: 80%
-  margin: 2rem auto
+  margin: 2rem auto .5rem
 
 .profile__description-inner
   background: #8AB20F

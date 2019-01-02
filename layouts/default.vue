@@ -1,16 +1,21 @@
 <template>
   <div class="main-container">
     <navigation/>
-    <nuxt/>
+    <div class="main__inner">
+      <pcHeader/>
+      <nuxt/>
+    </div>
   </div>
 </template>
 
 <script>
 import Navigation from '~/components/Navigation.vue'
+import PcHeader from '~/components/PcHeader.vue'
 
 export default {
   components: {
-    Navigation
+    Navigation,
+    PcHeader
   }
 }
 </script>
@@ -41,6 +46,10 @@ html {
 
 .main-container {
   display: flex;
+}
+
+.main__inner {
+  margin-left: 18rem
 }
 
 .button--green {
