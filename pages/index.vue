@@ -15,21 +15,34 @@
         </div>
       </div>
       <div class="profile__description-container">
-        <p class="profile__description">
-          I entered Tokyo institute of technology in 2013 and worked at Fablic, Coincheck, Translimit, FreakOut, Drivemode, MICIN, Redish、develping android application、server、data analyis.
-          <br>
-          <br>
-          I do research on natural language processing dealing with review sentences when I was a college student.
-          <br>
-          <br>
-          I was awarded the Tokyo Institute of Technology Leadership Award given to under only 5 students from undergraduate students in October 2016 because I was accepted activities inside and outside the school.
-          <br>
-          <br>
-          After graduating from college, I conducted maintenance and operation of large-scale services and developed functions with a mid- and long-term perspective  at Recruit Co., Ltd.
-          <br>
-          <br>
-          Currently I am in charge of general service development as CTO at OneBox Co., Ltd.
-        </p>
+        <div class="profile__description-inner">
+          <p class="profile__description-title">
+            Experience
+          </p>
+          <p class="profile__description-item">OneBox Inc. 2018 -</p>
+          <p class="profile__description-content">CTO, developing cryptocurrency services.</p>
+          <p class="profile__description-item">Recruit Inc. 2017 - 2018</p>
+          <p class="profile__description-content">Engineer, developing Jalan which is most popular trip adviser app in Japan.</p>
+          <p class="profile__description-item">MICIN Inc. 2016 - 2017</p>
+          <p class="profile__description-content">Engineer, developing android application and machine learning.</p>
+          <p class="profile__description-item">Redish Inc. 2016 - </p>
+          <p class="profile__description-content">Engineer, developing android application.</p>
+          <p class="profile__description-item">Drivemode Inc. 2016 - 2017</p>
+          <p class="profile__description-content">Engineer, developing android application.</p>
+          <p class="profile__description-item">FreakOut Inc. 2015 - 2016</p>
+          <p class="profile__description-content">Engineer, developing android application.</p>
+          <p class="profile__description-item">Translimit Inc. 2015 - 2016</p>
+          <p class="profile__description-content">Engineer, developing cocos2d-x application.</p>
+          <p class="profile__description-item">Coincheck Inc. 2014 - 2016</p>
+          <p class="profile__description-content">Engineer, developing android application and server.</p>
+          <p class="profile__description-item">Fablic Inc. 2014 - 2016</p>
+          <p class="profile__description-content">Engineer, developing android application and server.</p>
+          <p class="profile__description-title">
+            Education
+          </p>
+          <p class="profile__description-item">Tokyo institute of technology 2013 - </p>
+          <p class="profile__description-content">Major in computer science, natural languate processing.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -64,29 +77,55 @@ export default {
   margin: 0 auto
 
 .profile__image
-  width: 8rem
-  height: 8rem
+  width: 7rem
+  height: 7rem
+  margin-right: 2rem
   border-radius: 50%
   margin-bottom: 1rem
 
 .profile__title
   font-size: 1.8rem
   font-weight: normal
+  text-align: center
   margin-bottom: .5rem
   color: #221D6D
 
 .profile__subtitle
-  font-size: 1.2rem
+  font-size: 1rem
   font-weight: normal
   color: #221D6D
 
 .profile__description-container
   background: #6D6D6D
   border: 1.2px solid #414536
-  padding: 2rem
+  padding: 2rem 4rem
   border-radius: 8px 8px 50px 8px
   width: 80%
   margin: 2rem auto
+
+.profile__description-inner
+  background: #8AB20F
+  border: 1.2px solid #414536
+  padding: 2rem
+  border-radius: 2px
+  font-size: .85rem
+  text-align: left
+
+.profile__description-title
+  margin-top: 1rem
+  font-size: 1rem
+
+.profile__description-item
+  font-size: .75rem
+  margin-top: 1rem
+
+.profile__description-content
+  color: #265125
+  font-size: .75rem
+
+.profile__description-item-date
+  color: #265125
+  font-size: .75rem
 
 .profile__description
   background: #8AB20F
