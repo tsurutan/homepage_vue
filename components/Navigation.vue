@@ -1,34 +1,44 @@
 <template>
   <ul class="naviation">
-    <li class="navigation__item">
-      <a href="/">
-        プロフィール
+    <li>
+      <a
+        href="/"
+        class="navigation__item">
+        Profile
       </a>
     </li>
-    <li class="navigation__item">
-      <a href="/portfolio">
-        ポートフォリオ
+    <li>
+      <a
+        href="/portfolio"
+        class="navigation__item">
+        Portfolio
       </a>
     </li>
-    <li class="navigation__item">
-      <a href="https://www.tsurutan.com/">
-        ブログ
+    <li>
+      <a
+        href="https://www.tsurutan.com/"
+        class="navigation__item">
+        Blog
       </a>
     </li>
   </ul>
 </template>
 
-<style>
-.naviation {
-  height: 100vh;
-  border-right: 1px solid #000;
-  list-style: none;
-  padding: 0;
-}
+<style lang="sass">
+.naviation
+  height: 100vh
+  border-right: 1px solid #000
+  list-style: none
+  padding: 0
 
-.navigation__item {
-  margin: 0;
-  padding: 1rem 3rem;
-}
+.navigation__item
+  display: block
+  margin: 0
+  padding: 1rem 3rem
+  width: 100%
+  text-decoration: none
+  color: #757575
+  &:hover
+    background: #F5F5F5
 
 </style>
