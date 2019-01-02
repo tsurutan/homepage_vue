@@ -40,7 +40,7 @@
           <p class="profile__description-title">
             Education
           </p>
-          <p class="profile__description-item">Tokyo institute of technology 2013 - </p>
+          <p class="profile__description-item">Tokyo institute of technology 2013 - 2017</p>
           <p class="profile__description-content">Major in computer science, natural languate processing.</p>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default {
   color: #221D6D
 
 .profile__subtitle
-  font-size: 1rem
+  font-size: .85rem
   font-weight: normal
   color: #221D6D
 

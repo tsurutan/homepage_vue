@@ -30,7 +30,7 @@
   position: fixed
   height: 100vh
   border-right: 1px solid #757575
-  width: 15rem
+  width: 18rem
   list-style: none
   padding: 0
 
@@ -41,7 +41,14 @@
   width: 100%
   text-decoration: none
   color: #757575
+  &:before
+    content: "　"
   &:hover
-    background: #F5F5F5
+    &:before
+      content: "~"
+
+.navigation__item-arrow
+  width: 2rem
+  height: 2rem
 
 </style>
