@@ -30,7 +30,7 @@
   position: fixed
   height: 100vh
   border-right: 1px solid #757575
-  width: 10rem
+  width: 15rem
   list-style: none
   padding: 0
 

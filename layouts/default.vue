@@ -16,9 +16,12 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "DragonQuestFC";
+  src: url("~static/fonts/EarlyGameBoy.ttf");
+}
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'DragonQuestFC';
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -26,6 +29,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background: #B0B0B0;
 }
 
 *,

@@ -5,24 +5,35 @@
         class="profile__image"
         src="~/assets/image/designer-pic.png" >
       <h1 class="profile__title">
-        Atsuhiro Tsuruta (鶴田 篤広)
+        Atsuhiro Tsuruta
       </h1>
       <h2 class="profile__subtitle">
         Engineer / UI UX Designer / Data Scientist
       </h2>
       <p class="profile__description">
-        2013年東京工業大学に入学。Fablic, Coincheck,Translimit, FreakOut,Drivemode,MICIN,Redishにて長期インターンとして働き、Android アプリ、サーバー開発、データ解析を任される。 扶養がはずれないように現在は個人事業主として活動中。 大学ではレビュー文を扱った自然言語処理の研究を行う。 校内外での活動が認められ2016年10月に学部生から5名のみに与えられる東工大リーダーシップ賞を受賞する。 現在はリクルートにて大規模サービスの保守・運用、中長期を見据えた機能開発を行っている。
+        I entered Tokyo institute of technology in 2013 and worked at Fablic, Coincheck, Translimit, FreakOut, Drivemode, MICIN, Redish、develping android application、server、data analyis.
+        <br>
+        I do research on natural language processing dealing with review sentences when I was a college student.
+        <br>
+        I was awarded the Tokyo Institute of Technology Leadership Award given to under only 5 students from undergraduate students in October 2016 because I was accepted activities inside and outside the school.
+        <br>
+        After graduating from college, I conducted maintenance and operation of large-scale services and developed functions with a mid- and long-term perspective  at Recruit Co., Ltd.
+        <br>
+        Currently I am in charge of general service development as CTO at OneBox Co., Ltd.
       </p>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  head () {
+    return {
+      title: `ATSUHIRO TSURUTA`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'Atsuhiro Tsuruta(鶴田 篤広)のホームページです' }
+      ]
+    }
   }
 }
 </script>
@@ -52,10 +63,11 @@ export default {
   font-weight: normal
 
 .profile__description
-  background: #F5F5F5
+  background: #8AB20F
   padding: 2rem
   border-radius: 8px
   width: 80%
+  font-size: .85rem
   text-align: left
   margin: 2rem auto
 </style>

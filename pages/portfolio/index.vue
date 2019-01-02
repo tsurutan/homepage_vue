@@ -10,3 +10,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head () {
+    return {
+      title: `ATSUHIRO TSURUTA PORTFOLIO`,
+      meta: [
+        { hid: 'description', name: 'description', content: 'Atsuhiro Tsuruta(鶴田 篤広)のポートフォリオです' }
+      ]
+    }
+  }
+}
+</script>
