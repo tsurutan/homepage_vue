@@ -5,8 +5,14 @@
       <div>
         <div class="profile__description-container">
           <frameHeader />
-          <div class="profile__description-inner">
-            <nuxt/>
+          <div class="profile__main-description-container">
+            <div class="profile__light-container">
+              <div class="profile__light"/>
+              <p class="profile__battely">BATTELY</p>
+            </div>
+            <div class="profile__description-inner">
+              <nuxt/>
+            </div>
           </div>
         </div>
         <div class="profile__main-container">
@@ -37,6 +43,7 @@ export default {
 </script>
 
 <style lang="sass">
+@import "~/assets/css/media.sass"
 html
   font-family: 'NintendBold'
   font-size: 16px
@@ -46,6 +53,8 @@ html
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   box-sizing: border-box
+  @include media_below_large
+    font-size: 14px
 
 *
   box-sizing: border-box
@@ -81,10 +90,12 @@ html
   margin-bottom: 1rem
 
 .profile__title
-  font-size: 1.8rem
+  font-size: 1.6rem
   font-weight: normal
   text-align: center
   color: #221D6D
+  @include media_below_large
+    font-size: 1.2rem
 
 .profile__subtitle
   font-weight: normal
@@ -98,18 +109,37 @@ html
 .profile__description-container
   background: #6D6D6D
   border: 1.2px solid #414536
-  border-radius: 8px 8px 50px 8px
+  border-radius: 12px 12px 50px 12px
   margin: 0 auto .5rem
+
+.profile__main-description-container
+  display: flex
+  align-items: center
+
+.profile__light-container
+  margin-top: -4rem
+
+.profile__light
+  height: .8rem
+  width: .8rem
+  border-radius: 50%
+  background: #FB0005
+  margin: 0 auto .5rem
+
+.profile__battely
+  font-size: .65rem
+  color: #909090
+  padding: 0 .5rem
 
 .profile__description-inner
   font-family: 'EarlyGameBoy'
   background: #8AB20F
   border: 1.2px solid #414536
   padding: .5rem
-  height: 30vh
+  height: 14rem
   overflow-y: scroll
   border-radius: 2px
-  margin: 1rem 4rem 2rem
+  margin: 1rem 4rem 2rem 0
   font-size: .85rem
   text-align: left
 </style>

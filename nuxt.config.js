@@ -28,7 +28,8 @@ module.exports = {
   */
   css: [
     '~/assets/css/tailwind.css',
-    '~/assets/css/fonts.css'
+    '~/assets/css/fonts.sass',
+    '~/assets/css/media.sass'
   ],
 
   /*

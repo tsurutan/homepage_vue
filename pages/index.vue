@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p class="profile__description-title">Experience</p>
     <p class="profile__description-item">OneBox Inc. 2018 -</p>
     <p class="profile__description-content">CTO, developing cryptocurrency services.</p>
     <p class="profile__description-item">Recruit Inc. 2017 - 2018</p>
@@ -40,7 +41,7 @@ export default {
 <style lang="sass">
 .profile__description-title
   margin-top: 1rem
-  font-size: 1rem
+  font-size: .85rem
   font-family: inherit
 
 .profile__description-item

@@ -1,0 +1,13 @@
+$breakpoint: 600px
+
+@mixin media_middle
+  @media screen and (min-width: $breakpoint)
+    @content
+
+@mixin media_below_large
+  @media screen and (max-width: $breakpoint)
+    @content
+
+@mixin media_large
+  @media screen and (min-width: $breakpoint)
+    @content
