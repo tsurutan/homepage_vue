@@ -4,6 +4,7 @@
     <div class="container">
       <div>
         <div class="profile__description-container">
+          <frameHeader />
           <div class="profile__description-inner">
             <nuxt/>
           </div>
@@ -24,11 +25,13 @@
 <script>
 import Navigation from '~/components/Navigation.vue'
 import PcHeader from '~/components/PcHeader.vue'
+import FrameHeader from '~/components/FrameHeader.vue'
 
 export default {
   components: {
     Navigation,
-    PcHeader
+    PcHeader,
+    FrameHeader
   }
 }
 </script>
@@ -43,7 +46,6 @@ html
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   box-sizing: border-box
-  background: #B0B0B0
 
 *
   box-sizing: border-box
@@ -64,6 +66,7 @@ html
   width: 100%
   height: calc(100vh - 3rem)
   border: 2px solid gray
+  background: #B0B0B0
 
 .profile__main-container
   display: flex
@@ -95,7 +98,6 @@ html
 .profile__description-container
   background: #6D6D6D
   border: 1.2px solid #414536
-  padding: 2rem 4rem
   border-radius: 8px 8px 50px 8px
   margin: 0 auto .5rem
 
@@ -107,6 +109,7 @@ html
   height: 30vh
   overflow-y: scroll
   border-radius: 2px
+  margin: 1rem 4rem 2rem
   font-size: .85rem
   text-align: left
 </style>
