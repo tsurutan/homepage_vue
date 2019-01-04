@@ -23,6 +23,9 @@
             Atsuhiro Tsuruta
           </h1>
         </div>
+        <div class="game-pad__first-container">
+          <gamePad/>
+        </div>
       </div>
     </div>
   </div>
@@ -32,12 +35,14 @@
 import Navigation from '~/components/Navigation.vue'
 import PcHeader from '~/components/PcHeader.vue'
 import FrameHeader from '~/components/FrameHeader.vue'
+import GamePad from '~/components/GamePad.vue'
 
 export default {
   components: {
     Navigation,
     PcHeader,
-    FrameHeader
+    FrameHeader,
+    GamePad
   }
 }
 </script>
@@ -63,6 +68,9 @@ html
     box-sizing: border-box
     margin: 0
 
+.game-pad__first-container
+  display: flex
+  margin-top: 2rem
 .container__inner
   width: 100%
 
@@ -147,4 +155,6 @@ html
   margin: 1rem 4rem 2rem 0
   font-size: .85rem
   text-align: left
+  @include media_below_large
+    margin: 1rem 2rem 2rem 0
 </style>

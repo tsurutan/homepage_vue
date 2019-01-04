@@ -2,10 +2,10 @@
   <div>
     <p class="profile__description-title">Menu</p>
     <router-link
-      class="profile__description-content"
+      class="profile__description-link"
       to="/profile">Profile</router-link>
     <router-link
-      class="profile__description-content"
+      class="profile__description-link"
       to="/portfolio">Portfolio</router-link>
   </div>
 </template>
