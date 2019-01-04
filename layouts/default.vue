@@ -25,6 +25,7 @@
         </div>
         <div class="game-pad__first-container">
           <gamePad/>
+          <abButton/>
         </div>
       </div>
     </div>
@@ -36,13 +37,15 @@ import Navigation from '~/components/Navigation.vue'
 import PcHeader from '~/components/PcHeader.vue'
 import FrameHeader from '~/components/FrameHeader.vue'
 import GamePad from '~/components/GamePad.vue'
+import AbButton from '~/components/AbButton.vue'
 
 export default {
   components: {
     Navigation,
     PcHeader,
     FrameHeader,
-    GamePad
+    GamePad,
+    AbButton
   }
 }
 </script>
@@ -71,6 +74,7 @@ html
 .game-pad__first-container
   display: flex
   margin-top: 2rem
+  justify-content: space-between
 .container__inner
   width: 100%
 
