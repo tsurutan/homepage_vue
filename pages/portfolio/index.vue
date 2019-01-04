@@ -1,13 +1,65 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        tsurutan_homepage
-      </h1>
-      <h2 class="subtitle">
-        My homepage created by nuxt js
-      </h2>
-    </div>
+  <div>
+    <p class="profile__description-title">
+      Portfolio
+    </p>
+    <p class="profile__description-item">
+      Roubit
+    </p>
+    <p class="profile__description-content">
+      Android Application, developing it by myself.
+    </p>
+    <p class="profile__description-item">
+      Coincheck
+    </p>
+    <p class="profile__description-content">
+      Cryptocurrency Exchange Android Application, developing the first time one by myself.
+    </p>
+    <p class="profile__description-item">
+      CoinHack
+    </p>
+    <p class="profile__description-content">
+      Cryptocurrency Web Application, developing it by myself.
+    </p>
+    <p class="profile__description-item">
+      Tadacoin
+    </p>
+    <p class="profile__description-content">
+      Token Back Web Application, developing it by myself.
+    </p>
+    <p class="profile__description-item">
+      Redish
+    </p>
+    <p class="profile__description-content">
+      Restaurant Android Application, developing the first time one by myself.
+    </p>
+    <p class="profile__description-item">
+      ForYou
+    </p>
+    <p class="profile__description-content">
+      Live Android Application, developing the first time one by myself.
+    </p>
+    <p class="profile__description-title">
+      Related
+    </p>
+    <p class="profile__description-item">
+      Jalan
+    </p>
+    <p class="profile__description-content">
+      Travel Android Application
+    </p>
+    <p class="profile__description-item">
+      Drivemode
+    </p>
+    <p class="profile__description-content">
+      Car Navigation Android Application
+    </p>
+    <p class="profile__description-item">
+      Fril
+    </p>
+    <p class="profile__description-content">
+      Free Market Android Application
+    </p>
   </div>
 </template>
 

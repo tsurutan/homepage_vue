@@ -2,7 +2,7 @@
   <div class="main-container">
     <pcHeader/>
     <div class="container">
-      <div>
+      <div class="container__inner">
         <div class="profile__description-container">
           <frameHeader />
           <div class="profile__main-description-container">
@@ -63,6 +63,9 @@ html
     box-sizing: border-box
     margin: 0
 
+.container__inner
+  width: 100%
+
 .main-container
   max-width: 500px
   margin: 0 auto
@@ -115,6 +118,7 @@ html
 .profile__main-description-container
   display: flex
   align-items: center
+  width: 100%
 
 .profile__light-container
   margin-top: -4rem
@@ -136,6 +140,7 @@ html
   background: #8AB20F
   border: 1.2px solid #414536
   padding: .5rem
+  width: 100%
   height: 14rem
   overflow-y: scroll
   border-radius: 2px
