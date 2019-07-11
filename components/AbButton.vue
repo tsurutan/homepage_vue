@@ -2,7 +2,7 @@
   <div>
     <div class="ab-button">
       <div class="ab-button__button"/>
-      <div class="ab-button__button"/>
+      <p @click="tes" class="ab-button__button"/>
     </div>
     <div class="ab-button__text-container">
       <p class="ab-button__text">B</p>
@@ -10,6 +10,17 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    tes (e) {
+      alert('counter/add')
+    }
+  }
+}
+
+</script>
 
 <style lang="sass">
 .ab-button
