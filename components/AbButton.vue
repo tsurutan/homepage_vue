@@ -5,8 +5,8 @@
       <div class="ab-button__button"/>
     </div>
     <div class="ab-button__text-container">
-      <p class="ab-button__text">A</p>
       <p class="ab-button__text">B</p>
+      <p class="ab-button__text">A</p>
     </div>
   </div>
 </template>
